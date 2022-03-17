@@ -51,7 +51,7 @@ addFriendButton.addEventListener('click', () => {
 
     const newFriend = {
         name: friendInputEl.value || 'my friend',
-        satisfaction: Math.floor(Math.random() * 3)
+        satisfaction: Math.ceil(Math.random() * 3)
     };
 
     // get the name from the input
